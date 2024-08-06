@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 10px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+span{
+    color: black;
+    font-size: 40px;
+}
+#home{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    background-image: url(https://images.indianexpress.com/2024/05/mammootty-fb.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 2px inset rgb(19, 18, 18);
+    padding: 5px;
+   display: flex;
+   position: absolute;
+   height: 60px;
+   padding: 10px;
+   left: 70%;
+   margin-top: 200px;
+}
+.main:hover{
+    scale: 1.05;
+}
+
+h3{
+    color: rgb(20, 16, 16);
+    background-color: burlywood;
+    font-style: normal;
+    text-align: center;
+}
+p{
+    text-align:justify;
+}
+.pic p{
+    text-align:justify;
+    margin: 10px;
+}
+.gallery{
+    margin: 20px;
+    box-shadow: 2px 4px 6px burlywood;
+    
+}
+
+.gallery img{
+    width: 300px;
+    margin-left: 50px;
+    margin: 50px;
+}
+
+.gallery img:hover{
+    scale: 1.05;
+}
+
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+.box{
+    width: 310px;
+    height: 750px;
+    border: 3px ridge rgb(202, 31, 31);
+    margin: 5px;
+    background: linear-gradient(to top,rgb(209, 198, 198) 50%,rgb(221, 233, 241) 50%);
+    background-size: 100% 200%;
+    transition: all 2.05s;
+}
+.box:hover{
+    background-position: bottom;
+    filter: drop-shadow(3px 6px 20px rgb(224, 235, 243));
+
+}
+.box img{
+    width:240px;
+    padding: 5px;
+}
+
+.box p{
+    text-align: justify;
+    padding: 5px;
+}
+
+.box h4{
+    font-size: 25px;
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 4px 8px rgb(231, 133, 13);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4e4e55; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8d8f85; 
+  }
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    vertical-align: middle;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+footer h3{
+    color: rgb(70, 65, 65);
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
